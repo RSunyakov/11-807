@@ -9,6 +9,7 @@ public class FileTextProvider implements TextProvider {
 
     public FileTextProvider(File input) {
         this.input = input;
+        String FileName = input.getName();
     }
 
     @Override
